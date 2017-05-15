@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8104AE3D1D26542900620B18 /* bg_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE101D26542900620B18 /* bg_2x.png */; };
+		8104AE3E1D26542900620B18 /* bg_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE111D26542900620B18 /* bg_3x.png */; };
+		8104AE3F1D26542900620B18 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE121D26542900620B18 /* bg.png */; };
+		8104AE401D26542900620B18 /* car_1_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE131D26542900620B18 /* car_1_2x.png */; };
+		8104AE411D26542900620B18 /* car_1_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE141D26542900620B18 /* car_1_3x.png */; };
+		8104AE421D26542900620B18 /* car_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE151D26542900620B18 /* car_1.png */; };
+		8104AE431D26542900620B18 /* car_2_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE161D26542900620B18 /* car_2_2x.png */; };
+		8104AE441D26542900620B18 /* car_2_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE171D26542900620B18 /* car_2_3x.png */; };
+		8104AE451D26542900620B18 /* car_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE181D26542900620B18 /* car_2.png */; };
+		8104AE461D26542900620B18 /* car_3_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE191D26542900620B18 /* car_3_2x.png */; };
+		8104AE471D26542900620B18 /* car_3_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1A1D26542900620B18 /* car_3_3x.png */; };
+		8104AE481D26542900620B18 /* car_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1B1D26542900620B18 /* car_3.png */; };
+		8104AE491D26542900620B18 /* car_4_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1C1D26542900620B18 /* car_4_2x.png */; };
+		8104AE4A1D26542900620B18 /* car_4_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1D1D26542900620B18 /* car_4_3x.png */; };
+		8104AE4B1D26542900620B18 /* car_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1E1D26542900620B18 /* car_4.png */; };
+		8104AE4C1D26542900620B18 /* car_5_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE1F1D26542900620B18 /* car_5_2x.png */; };
+		8104AE4D1D26542900620B18 /* car_5_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE201D26542900620B18 /* car_5_3x.png */; };
+		8104AE4E1D26542900620B18 /* car_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE211D26542900620B18 /* car_5.png */; };
+		8104AE4F1D26542900620B18 /* car_6_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE221D26542900620B18 /* car_6_2x.png */; };
+		8104AE501D26542900620B18 /* car_6_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE231D26542900620B18 /* car_6_3x.png */; };
+		8104AE511D26542900620B18 /* car_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE241D26542900620B18 /* car_6.png */; };
+		8104AE521D26542900620B18 /* car_big_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE251D26542900620B18 /* car_big_2x.png */; };
+		8104AE531D26542900620B18 /* car_big_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE261D26542900620B18 /* car_big_3x.png */; };
+		8104AE541D26542900620B18 /* car_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE271D26542900620B18 /* car_big.png */; };
+		8104AE551D26542900620B18 /* car_race_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE281D26542900620B18 /* car_race_2x.png */; };
+		8104AE561D26542900620B18 /* car_race_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE291D26542900620B18 /* car_race_3x.png */; };
+		8104AE571D26542900620B18 /* car_race.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2A1D26542900620B18 /* car_race.png */; };
+		8104AE581D26542900620B18 /* close_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2B1D26542900620B18 /* close_2x.png */; };
+		8104AE591D26542900620B18 /* close_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2C1D26542900620B18 /* close_3x.png */; };
+		8104AE5A1D26542900620B18 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2D1D26542900620B18 /* close.png */; };
+		8104AE5B1D26542900620B18 /* facebook_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2E1D26542900620B18 /* facebook_2x.png */; };
+		8104AE5C1D26542900620B18 /* facebook_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE2F1D26542900620B18 /* facebook_3x.png */; };
+		8104AE5D1D26542900620B18 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE301D26542900620B18 /* facebook.png */; };
+		8104AE5E1D26542900620B18 /* play_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE311D26542900620B18 /* play_2x.png */; };
+		8104AE5F1D26542900620B18 /* play_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE321D26542900620B18 /* play_3x.png */; };
+		8104AE601D26542900620B18 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE331D26542900620B18 /* play.png */; };
+		8104AE611D26542900620B18 /* scores_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE341D26542900620B18 /* scores_2x.png */; };
+		8104AE621D26542900620B18 /* scores_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE351D26542900620B18 /* scores_3x.png */; };
+		8104AE631D26542900620B18 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE361D26542900620B18 /* scores.png */; };
+		8104AE641D26542900620B18 /* twitter_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE371D26542900620B18 /* twitter_2x.png */; };
+		8104AE651D26542900620B18 /* twitter_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE381D26542900620B18 /* twitter_3x.png */; };
+		8104AE661D26542900620B18 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE391D26542900620B18 /* twitter.png */; };
+		8104AE671D26542900620B18 /* wheel_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE3A1D26542900620B18 /* wheel_2x.png */; };
+		8104AE681D26542900620B18 /* wheel_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE3B1D26542900620B18 /* wheel_3x.png */; };
+		8104AE691D26542900620B18 /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8104AE3C1D26542900620B18 /* wheel.png */; };
+		812F2F9E1D238B16007FB06D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2F9D1D238B16007FB06D /* main.m */; };
+		812F2FA11D238B16007FB06D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FA01D238B16007FB06D /* AppDelegate.m */; };
+		812F2FA41D238B16007FB06D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FA31D238B16007FB06D /* ViewController.m */; };
+		812F2FA71D238B16007FB06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FA51D238B16007FB06D /* Main.storyboard */; };
+		812F2FA91D238B16007FB06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FA81D238B16007FB06D /* Assets.xcassets */; };
+		812F2FAC1D238B16007FB06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FAA1D238B16007FB06D /* LaunchScreen.storyboard */; };
+		812F2FB71D238B16007FB06D /* RoadFighterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FB61D238B16007FB06D /* RoadFighterTests.m */; };
+		812F2FC21D238B16007FB06D /* RoadFighterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FC11D238B16007FB06D /* RoadFighterUITests.m */; };
+		812F2FD11D238B5F007FB06D /* GameScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FD01D238B5F007FB06D /* GameScreenView.m */; };
+		812F2FD41D238C7E007FB06D /* MyCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F2FD31D238C7E007FB06D /* MyCarView.m */; };
+		812F2FDB1D238D0C007FB06D /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FD51D238D0C007FB06D /* car1.png */; };
+		812F2FDC1D238D0C007FB06D /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FD61D238D0C007FB06D /* car2.png */; };
+		812F2FDD1D238D0C007FB06D /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FD71D238D0C007FB06D /* car3.png */; };
+		812F2FDE1D238D0C007FB06D /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FD81D238D0C007FB06D /* car4.png */; };
+		812F2FDF1D238D0C007FB06D /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FD91D238D0C007FB06D /* car5.png */; };
+		812F2FE01D238D0C007FB06D /* truck.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FDA1D238D0C007FB06D /* truck.jpeg */; };
+		812F2FE51D238D23007FB06D /* road_bg_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FE21D238D23007FB06D /* road_bg_2x.png */; };
+		812F2FE61D238D23007FB06D /* road_bg_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FE31D238D23007FB06D /* road_bg_3x.png */; };
+		812F2FE71D238D23007FB06D /* road_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F2FE41D238D23007FB06D /* road_bg.png */; };
+		81381AD41D48C5BB0082B6BD /* RaceGameScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81381AD31D48C5BB0082B6BD /* RaceGameScoreBoardViewController.m */; };
+		81381AD71D48C7370082B6BD /* RaceGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81381AD61D48C7370082B6BD /* RaceGameOverViewController.m */; };
+		81381ADB1D48DF350082B6BD /* back_pink_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81381AD81D48DF350082B6BD /* back_pink_2x.png */; };
+		81381ADC1D48DF350082B6BD /* back_pink_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81381AD91D48DF350082B6BD /* back_pink_3x.png */; };
+		81381ADD1D48DF350082B6BD /* back_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 81381ADA1D48DF350082B6BD /* back_pink.png */; };
+		814053E71D4B3643004B5DB4 /* sen-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 814053E41D4B3643004B5DB4 /* sen-bold.otf */; };
+		814053E81D4B3643004B5DB4 /* sen-extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 814053E51D4B3643004B5DB4 /* sen-extrabold.otf */; };
+		814053E91D4B3643004B5DB4 /* sen-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 814053E61D4B3643004B5DB4 /* sen-regular.otf */; };
+		8150F5941D50C23F00240F29 /* GameScreenView123.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150F5931D50C23F00240F29 /* GameScreenView123.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		812F2FB31D238B16007FB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812F2F911D238B16007FB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812F2F981D238B16007FB06D;
+			remoteInfo = RoadFighter;
+		};
+		812F2FBE1D238B16007FB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812F2F911D238B16007FB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812F2F981D238B16007FB06D;
+			remoteInfo = RoadFighter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8104AE101D26542900620B18 /* bg_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_2x.png; path = ../../car_game/bg_2x.png; sourceTree = "<group>"; };
+		8104AE111D26542900620B18 /* bg_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_3x.png; path = ../../car_game/bg_3x.png; sourceTree = "<group>"; };
+		8104AE121D26542900620B18 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../car_game/bg.png; sourceTree = "<group>"; };
+		8104AE131D26542900620B18 /* car_1_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_1_2x.png; path = ../../car_game/car_1_2x.png; sourceTree = "<group>"; };
+		8104AE141D26542900620B18 /* car_1_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_1_3x.png; path = ../../car_game/car_1_3x.png; sourceTree = "<group>"; };
+		8104AE151D26542900620B18 /* car_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_1.png; path = ../../car_game/car_1.png; sourceTree = "<group>"; };
+		8104AE161D26542900620B18 /* car_2_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_2_2x.png; path = ../../car_game/car_2_2x.png; sourceTree = "<group>"; };
+		8104AE171D26542900620B18 /* car_2_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_2_3x.png; path = ../../car_game/car_2_3x.png; sourceTree = "<group>"; };
+		8104AE181D26542900620B18 /* car_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_2.png; path = ../../car_game/car_2.png; sourceTree = "<group>"; };
+		8104AE191D26542900620B18 /* car_3_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_3_2x.png; path = ../../car_game/car_3_2x.png; sourceTree = "<group>"; };
+		8104AE1A1D26542900620B18 /* car_3_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_3_3x.png; path = ../../car_game/car_3_3x.png; sourceTree = "<group>"; };
+		8104AE1B1D26542900620B18 /* car_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_3.png; path = ../../car_game/car_3.png; sourceTree = "<group>"; };
+		8104AE1C1D26542900620B18 /* car_4_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_4_2x.png; path = ../../car_game/car_4_2x.png; sourceTree = "<group>"; };
+		8104AE1D1D26542900620B18 /* car_4_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_4_3x.png; path = ../../car_game/car_4_3x.png; sourceTree = "<group>"; };
+		8104AE1E1D26542900620B18 /* car_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_4.png; path = ../../car_game/car_4.png; sourceTree = "<group>"; };
+		8104AE1F1D26542900620B18 /* car_5_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_5_2x.png; path = ../../car_game/car_5_2x.png; sourceTree = "<group>"; };
+		8104AE201D26542900620B18 /* car_5_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_5_3x.png; path = ../../car_game/car_5_3x.png; sourceTree = "<group>"; };
+		8104AE211D26542900620B18 /* car_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_5.png; path = ../../car_game/car_5.png; sourceTree = "<group>"; };
+		8104AE221D26542900620B18 /* car_6_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_6_2x.png; path = ../../car_game/car_6_2x.png; sourceTree = "<group>"; };
+		8104AE231D26542900620B18 /* car_6_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_6_3x.png; path = ../../car_game/car_6_3x.png; sourceTree = "<group>"; };
+		8104AE241D26542900620B18 /* car_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_6.png; path = ../../car_game/car_6.png; sourceTree = "<group>"; };
+		8104AE251D26542900620B18 /* car_big_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_big_2x.png; path = ../../car_game/car_big_2x.png; sourceTree = "<group>"; };
+		8104AE261D26542900620B18 /* car_big_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_big_3x.png; path = ../../car_game/car_big_3x.png; sourceTree = "<group>"; };
+		8104AE271D26542900620B18 /* car_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_big.png; path = ../../car_game/car_big.png; sourceTree = "<group>"; };
+		8104AE281D26542900620B18 /* car_race_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_race_2x.png; path = ../../car_game/car_race_2x.png; sourceTree = "<group>"; };
+		8104AE291D26542900620B18 /* car_race_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_race_3x.png; path = ../../car_game/car_race_3x.png; sourceTree = "<group>"; };
+		8104AE2A1D26542900620B18 /* car_race.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_race.png; path = ../../car_game/car_race.png; sourceTree = "<group>"; };
+		8104AE2B1D26542900620B18 /* close_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_2x.png; path = ../../car_game/close_2x.png; sourceTree = "<group>"; };
+		8104AE2C1D26542900620B18 /* close_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_3x.png; path = ../../car_game/close_3x.png; sourceTree = "<group>"; };
+		8104AE2D1D26542900620B18 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = ../../car_game/close.png; sourceTree = "<group>"; };
+		8104AE2E1D26542900620B18 /* facebook_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_2x.png; path = ../../car_game/facebook_2x.png; sourceTree = "<group>"; };
+		8104AE2F1D26542900620B18 /* facebook_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_3x.png; path = ../../car_game/facebook_3x.png; sourceTree = "<group>"; };
+		8104AE301D26542900620B18 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = ../../car_game/facebook.png; sourceTree = "<group>"; };
+		8104AE311D26542900620B18 /* play_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_2x.png; path = ../../car_game/play_2x.png; sourceTree = "<group>"; };
+		8104AE321D26542900620B18 /* play_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_3x.png; path = ../../car_game/play_3x.png; sourceTree = "<group>"; };
+		8104AE331D26542900620B18 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../car_game/play.png; sourceTree = "<group>"; };
+		8104AE341D26542900620B18 /* scores_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scores_2x.png; path = ../../car_game/scores_2x.png; sourceTree = "<group>"; };
+		8104AE351D26542900620B18 /* scores_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scores_3x.png; path = ../../car_game/scores_3x.png; sourceTree = "<group>"; };
+		8104AE361D26542900620B18 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scores.png; path = ../../car_game/scores.png; sourceTree = "<group>"; };
+		8104AE371D26542900620B18 /* twitter_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_2x.png; path = ../../car_game/twitter_2x.png; sourceTree = "<group>"; };
+		8104AE381D26542900620B18 /* twitter_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_3x.png; path = ../../car_game/twitter_3x.png; sourceTree = "<group>"; };
+		8104AE391D26542900620B18 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../car_game/twitter.png; sourceTree = "<group>"; };
+		8104AE3A1D26542900620B18 /* wheel_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel_2x.png; path = ../../car_game/wheel_2x.png; sourceTree = "<group>"; };
+		8104AE3B1D26542900620B18 /* wheel_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel_3x.png; path = ../../car_game/wheel_3x.png; sourceTree = "<group>"; };
+		8104AE3C1D26542900620B18 /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel.png; path = ../../car_game/wheel.png; sourceTree = "<group>"; };
+		812F2F991D238B16007FB06D /* RoadFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F2F9D1D238B16007FB06D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812F2F9F1D238B16007FB06D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		812F2FA01D238B16007FB06D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		812F2FA21D238B16007FB06D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		812F2FA31D238B16007FB06D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		812F2FA61D238B16007FB06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		812F2FA81D238B16007FB06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812F2FAB1D238B16007FB06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		812F2FAD1D238B16007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812F2FB21D238B16007FB06D /* RoadFighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadFighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F2FB61D238B16007FB06D /* RoadFighterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadFighterTests.m; sourceTree = "<group>"; };
+		812F2FB81D238B16007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812F2FBD1D238B16007FB06D /* RoadFighterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadFighterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F2FC11D238B16007FB06D /* RoadFighterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadFighterUITests.m; sourceTree = "<group>"; };
+		812F2FC31D238B16007FB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812F2FCF1D238B5F007FB06D /* GameScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenView.h; sourceTree = "<group>"; };
+		812F2FD01D238B5F007FB06D /* GameScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenView.m; sourceTree = "<group>"; };
+		812F2FD21D238C7E007FB06D /* MyCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarView.h; sourceTree = "<group>"; };
+		812F2FD31D238C7E007FB06D /* MyCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarView.m; sourceTree = "<group>"; };
+		812F2FD51D238D0C007FB06D /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car1.png; path = ../../car1.png; sourceTree = "<group>"; };
+		812F2FD61D238D0C007FB06D /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car2.png; path = ../../car2.png; sourceTree = "<group>"; };
+		812F2FD71D238D0C007FB06D /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car3.png; path = ../../car3.png; sourceTree = "<group>"; };
+		812F2FD81D238D0C007FB06D /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car4.png; path = ../../car4.png; sourceTree = "<group>"; };
+		812F2FD91D238D0C007FB06D /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car5.png; path = ../../car5.png; sourceTree = "<group>"; };
+		812F2FDA1D238D0C007FB06D /* truck.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = truck.jpeg; path = ../../truck.jpeg; sourceTree = "<group>"; };
+		812F2FE21D238D23007FB06D /* road_bg_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road_bg_2x.png; path = ../../car_game/road_bg_2x.png; sourceTree = "<group>"; };
+		812F2FE31D238D23007FB06D /* road_bg_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road_bg_3x.png; path = ../../car_game/road_bg_3x.png; sourceTree = "<group>"; };
+		812F2FE41D238D23007FB06D /* road_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road_bg.png; path = ../../car_game/road_bg.png; sourceTree = "<group>"; };
+		81381AD21D48C5BB0082B6BD /* RaceGameScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceGameScoreBoardViewController.h; sourceTree = "<group>"; };
+		81381AD31D48C5BB0082B6BD /* RaceGameScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceGameScoreBoardViewController.m; sourceTree = "<group>"; };
+		81381AD51D48C7370082B6BD /* RaceGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceGameOverViewController.h; sourceTree = "<group>"; };
+		81381AD61D48C7370082B6BD /* RaceGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceGameOverViewController.m; sourceTree = "<group>"; };
+		81381AD81D48DF350082B6BD /* back_pink_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_pink_2x.png; path = ../../alarm_app_bubble_game/score_card/back_pink_2x.png; sourceTree = "<group>"; };
+		81381AD91D48DF350082B6BD /* back_pink_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_pink_3x.png; path = ../../alarm_app_bubble_game/score_card/back_pink_3x.png; sourceTree = "<group>"; };
+		81381ADA1D48DF350082B6BD /* back_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_pink.png; path = ../../alarm_app_bubble_game/score_card/back_pink.png; sourceTree = "<group>"; };
+		814053E41D4B3643004B5DB4 /* sen-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sen-bold.otf"; path = "RoadFighter/Fonts/sen-bold.otf"; sourceTree = "<group>"; };
+		814053E51D4B3643004B5DB4 /* sen-extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sen-extrabold.otf"; path = "RoadFighter/Fonts/sen-extrabold.otf"; sourceTree = "<group>"; };
+		814053E61D4B3643004B5DB4 /* sen-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sen-regular.otf"; path = "RoadFighter/Fonts/sen-regular.otf"; sourceTree = "<group>"; };
+		8150F5931D50C23F00240F29 /* GameScreenView123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenView123.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812F2F961D238B16007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FAF1D238B16007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FBA1D238B16007FB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		812F2F901D238B16007FB06D = {
+			isa = PBXGroup;
+			children = (
+				814053EA1D4B3647004B5DB4 /* Fonts */,
+				812F2F9B1D238B16007FB06D /* RoadFighter */,
+				812F2FB51D238B16007FB06D /* RoadFighterTests */,
+				812F2FC01D238B16007FB06D /* RoadFighterUITests */,
+				812F2F9A1D238B16007FB06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812F2F9A1D238B16007FB06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812F2F991D238B16007FB06D /* RoadFighter.app */,
+				812F2FB21D238B16007FB06D /* RoadFighterTests.xctest */,
+				812F2FBD1D238B16007FB06D /* RoadFighterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812F2F9B1D238B16007FB06D /* RoadFighter */ = {
+			isa = PBXGroup;
+			children = (
+				8150F5931D50C23F00240F29 /* GameScreenView123.m */,
+				812F2FE11D238D10007FB06D /* Car Images */,
+				812F2F9F1D238B16007FB06D /* AppDelegate.h */,
+				812F2FA01D238B16007FB06D /* AppDelegate.m */,
+				812F2FA21D238B16007FB06D /* ViewController.h */,
+				812F2FA31D238B16007FB06D /* ViewController.m */,
+				812F2FCF1D238B5F007FB06D /* GameScreenView.h */,
+				812F2FD01D238B5F007FB06D /* GameScreenView.m */,
+				812F2FD21D238C7E007FB06D /* MyCarView.h */,
+				812F2FD31D238C7E007FB06D /* MyCarView.m */,
+				812F2FA51D238B16007FB06D /* Main.storyboard */,
+				812F2FA81D238B16007FB06D /* Assets.xcassets */,
+				812F2FAA1D238B16007FB06D /* LaunchScreen.storyboard */,
+				812F2FAD1D238B16007FB06D /* Info.plist */,
+				812F2F9C1D238B16007FB06D /* Supporting Files */,
+				81381AD21D48C5BB0082B6BD /* RaceGameScoreBoardViewController.h */,
+				81381AD31D48C5BB0082B6BD /* RaceGameScoreBoardViewController.m */,
+				81381AD51D48C7370082B6BD /* RaceGameOverViewController.h */,
+				81381AD61D48C7370082B6BD /* RaceGameOverViewController.m */,
+			);
+			path = RoadFighter;
+			sourceTree = "<group>";
+		};
+		812F2F9C1D238B16007FB06D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				812F2F9D1D238B16007FB06D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		812F2FB51D238B16007FB06D /* RoadFighterTests */ = {
+			isa = PBXGroup;
+			children = (
+				812F2FB61D238B16007FB06D /* RoadFighterTests.m */,
+				812F2FB81D238B16007FB06D /* Info.plist */,
+			);
+			path = RoadFighterTests;
+			sourceTree = "<group>";
+		};
+		812F2FC01D238B16007FB06D /* RoadFighterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				812F2FC11D238B16007FB06D /* RoadFighterUITests.m */,
+				812F2FC31D238B16007FB06D /* Info.plist */,
+			);
+			path = RoadFighterUITests;
+			sourceTree = "<group>";
+		};
+		812F2FE11D238D10007FB06D /* Car Images */ = {
+			isa = PBXGroup;
+			children = (
+				81381AD81D48DF350082B6BD /* back_pink_2x.png */,
+				81381AD91D48DF350082B6BD /* back_pink_3x.png */,
+				81381ADA1D48DF350082B6BD /* back_pink.png */,
+				8104AE101D26542900620B18 /* bg_2x.png */,
+				8104AE111D26542900620B18 /* bg_3x.png */,
+				8104AE121D26542900620B18 /* bg.png */,
+				8104AE131D26542900620B18 /* car_1_2x.png */,
+				8104AE141D26542900620B18 /* car_1_3x.png */,
+				8104AE151D26542900620B18 /* car_1.png */,
+				8104AE161D26542900620B18 /* car_2_2x.png */,
+				8104AE171D26542900620B18 /* car_2_3x.png */,
+				8104AE181D26542900620B18 /* car_2.png */,
+				8104AE191D26542900620B18 /* car_3_2x.png */,
+				8104AE1A1D26542900620B18 /* car_3_3x.png */,
+				8104AE1B1D26542900620B18 /* car_3.png */,
+				8104AE1C1D26542900620B18 /* car_4_2x.png */,
+				8104AE1D1D26542900620B18 /* car_4_3x.png */,
+				8104AE1E1D26542900620B18 /* car_4.png */,
+				8104AE1F1D26542900620B18 /* car_5_2x.png */,
+				8104AE201D26542900620B18 /* car_5_3x.png */,
+				8104AE211D26542900620B18 /* car_5.png */,
+				8104AE221D26542900620B18 /* car_6_2x.png */,
+				8104AE231D26542900620B18 /* car_6_3x.png */,
+				8104AE241D26542900620B18 /* car_6.png */,
+				8104AE251D26542900620B18 /* car_big_2x.png */,
+				8104AE261D26542900620B18 /* car_big_3x.png */,
+				8104AE271D26542900620B18 /* car_big.png */,
+				8104AE281D26542900620B18 /* car_race_2x.png */,
+				8104AE291D26542900620B18 /* car_race_3x.png */,
+				8104AE2A1D26542900620B18 /* car_race.png */,
+				8104AE2B1D26542900620B18 /* close_2x.png */,
+				8104AE2C1D26542900620B18 /* close_3x.png */,
+				8104AE2D1D26542900620B18 /* close.png */,
+				8104AE2E1D26542900620B18 /* facebook_2x.png */,
+				8104AE2F1D26542900620B18 /* facebook_3x.png */,
+				8104AE301D26542900620B18 /* facebook.png */,
+				8104AE311D26542900620B18 /* play_2x.png */,
+				8104AE321D26542900620B18 /* play_3x.png */,
+				8104AE331D26542900620B18 /* play.png */,
+				8104AE341D26542900620B18 /* scores_2x.png */,
+				8104AE351D26542900620B18 /* scores_3x.png */,
+				8104AE361D26542900620B18 /* scores.png */,
+				8104AE371D26542900620B18 /* twitter_2x.png */,
+				8104AE381D26542900620B18 /* twitter_3x.png */,
+				8104AE391D26542900620B18 /* twitter.png */,
+				8104AE3A1D26542900620B18 /* wheel_2x.png */,
+				8104AE3B1D26542900620B18 /* wheel_3x.png */,
+				8104AE3C1D26542900620B18 /* wheel.png */,
+				812F2FE21D238D23007FB06D /* road_bg_2x.png */,
+				812F2FE31D238D23007FB06D /* road_bg_3x.png */,
+				812F2FE41D238D23007FB06D /* road_bg.png */,
+				812F2FD51D238D0C007FB06D /* car1.png */,
+				812F2FD61D238D0C007FB06D /* car2.png */,
+				812F2FD71D238D0C007FB06D /* car3.png */,
+				812F2FD81D238D0C007FB06D /* car4.png */,
+				812F2FD91D238D0C007FB06D /* car5.png */,
+				812F2FDA1D238D0C007FB06D /* truck.jpeg */,
+			);
+			name = "Car Images";
+			sourceTree = "<group>";
+		};
+		814053EA1D4B3647004B5DB4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				814053E41D4B3643004B5DB4 /* sen-bold.otf */,
+				814053E51D4B3643004B5DB4 /* sen-extrabold.otf */,
+				814053E61D4B3643004B5DB4 /* sen-regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812F2F981D238B16007FB06D /* RoadFighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812F2FC61D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighter" */;
+			buildPhases = (
+				812F2F951D238B16007FB06D /* Sources */,
+				812F2F961D238B16007FB06D /* Frameworks */,
+				812F2F971D238B16007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadFighter;
+			productName = RoadFighter;
+			productReference = 812F2F991D238B16007FB06D /* RoadFighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		812F2FB11D238B16007FB06D /* RoadFighterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812F2FC91D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighterTests" */;
+			buildPhases = (
+				812F2FAE1D238B16007FB06D /* Sources */,
+				812F2FAF1D238B16007FB06D /* Frameworks */,
+				812F2FB01D238B16007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812F2FB41D238B16007FB06D /* PBXTargetDependency */,
+			);
+			name = RoadFighterTests;
+			productName = RoadFighterTests;
+			productReference = 812F2FB21D238B16007FB06D /* RoadFighterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		812F2FBC1D238B16007FB06D /* RoadFighterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812F2FCC1D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighterUITests" */;
+			buildPhases = (
+				812F2FB91D238B16007FB06D /* Sources */,
+				812F2FBA1D238B16007FB06D /* Frameworks */,
+				812F2FBB1D238B16007FB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812F2FBF1D238B16007FB06D /* PBXTargetDependency */,
+			);
+			name = RoadFighterUITests;
+			productName = RoadFighterUITests;
+			productReference = 812F2FBD1D238B16007FB06D /* RoadFighterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812F2F911D238B16007FB06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pranav;
+				TargetAttributes = {
+					812F2F981D238B16007FB06D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					812F2FB11D238B16007FB06D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 812F2F981D238B16007FB06D;
+					};
+					812F2FBC1D238B16007FB06D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 812F2F981D238B16007FB06D;
+					};
+				};
+			};
+			buildConfigurationList = 812F2F941D238B16007FB06D /* Build configuration list for PBXProject "RoadFighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812F2F901D238B16007FB06D;
+			productRefGroup = 812F2F9A1D238B16007FB06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812F2F981D238B16007FB06D /* RoadFighter */,
+				812F2FB11D238B16007FB06D /* RoadFighterTests */,
+				812F2FBC1D238B16007FB06D /* RoadFighterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812F2F971D238B16007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8104AE461D26542900620B18 /* car_3_2x.png in Resources */,
+				8104AE5E1D26542900620B18 /* play_2x.png in Resources */,
+				812F2FE71D238D23007FB06D /* road_bg.png in Resources */,
+				812F2FE01D238D0C007FB06D /* truck.jpeg in Resources */,
+				8104AE3D1D26542900620B18 /* bg_2x.png in Resources */,
+				8104AE481D26542900620B18 /* car_3.png in Resources */,
+				812F2FAC1D238B16007FB06D /* LaunchScreen.storyboard in Resources */,
+				814053E91D4B3643004B5DB4 /* sen-regular.otf in Resources */,
+				8104AE4F1D26542900620B18 /* car_6_2x.png in Resources */,
+				8104AE5B1D26542900620B18 /* facebook_2x.png in Resources */,
+				8104AE531D26542900620B18 /* car_big_3x.png in Resources */,
+				8104AE431D26542900620B18 /* car_2_2x.png in Resources */,
+				8104AE471D26542900620B18 /* car_3_3x.png in Resources */,
+				8104AE551D26542900620B18 /* car_race_2x.png in Resources */,
+				8104AE521D26542900620B18 /* car_big_2x.png in Resources */,
+				814053E71D4B3643004B5DB4 /* sen-bold.otf in Resources */,
+				8104AE681D26542900620B18 /* wheel_3x.png in Resources */,
+				812F2FE51D238D23007FB06D /* road_bg_2x.png in Resources */,
+				8104AE3F1D26542900620B18 /* bg.png in Resources */,
+				8104AE561D26542900620B18 /* car_race_3x.png in Resources */,
+				8104AE601D26542900620B18 /* play.png in Resources */,
+				8104AE5F1D26542900620B18 /* play_3x.png in Resources */,
+				8104AE4E1D26542900620B18 /* car_5.png in Resources */,
+				8104AE3E1D26542900620B18 /* bg_3x.png in Resources */,
+				8104AE5C1D26542900620B18 /* facebook_3x.png in Resources */,
+				8104AE591D26542900620B18 /* close_3x.png in Resources */,
+				8104AE5A1D26542900620B18 /* close.png in Resources */,
+				8104AE441D26542900620B18 /* car_2_3x.png in Resources */,
+				8104AE5D1D26542900620B18 /* facebook.png in Resources */,
+				814053E81D4B3643004B5DB4 /* sen-extrabold.otf in Resources */,
+				8104AE631D26542900620B18 /* scores.png in Resources */,
+				81381ADB1D48DF350082B6BD /* back_pink_2x.png in Resources */,
+				812F2FE61D238D23007FB06D /* road_bg_3x.png in Resources */,
+				812F2FDC1D238D0C007FB06D /* car2.png in Resources */,
+				81381ADC1D48DF350082B6BD /* back_pink_3x.png in Resources */,
+				812F2FDD1D238D0C007FB06D /* car3.png in Resources */,
+				812F2FDE1D238D0C007FB06D /* car4.png in Resources */,
+				8104AE691D26542900620B18 /* wheel.png in Resources */,
+				812F2FA91D238B16007FB06D /* Assets.xcassets in Resources */,
+				812F2FDB1D238D0C007FB06D /* car1.png in Resources */,
+				8104AE641D26542900620B18 /* twitter_2x.png in Resources */,
+				8104AE651D26542900620B18 /* twitter_3x.png in Resources */,
+				8104AE501D26542900620B18 /* car_6_3x.png in Resources */,
+				8104AE4A1D26542900620B18 /* car_4_3x.png in Resources */,
+				812F2FDF1D238D0C007FB06D /* car5.png in Resources */,
+				8104AE541D26542900620B18 /* car_big.png in Resources */,
+				8104AE4D1D26542900620B18 /* car_5_3x.png in Resources */,
+				8104AE411D26542900620B18 /* car_1_3x.png in Resources */,
+				8104AE581D26542900620B18 /* close_2x.png in Resources */,
+				81381ADD1D48DF350082B6BD /* back_pink.png in Resources */,
+				8104AE401D26542900620B18 /* car_1_2x.png in Resources */,
+				8104AE611D26542900620B18 /* scores_2x.png in Resources */,
+				8104AE4C1D26542900620B18 /* car_5_2x.png in Resources */,
+				8104AE671D26542900620B18 /* wheel_2x.png in Resources */,
+				8104AE421D26542900620B18 /* car_1.png in Resources */,
+				8104AE511D26542900620B18 /* car_6.png in Resources */,
+				8104AE451D26542900620B18 /* car_2.png in Resources */,
+				8104AE491D26542900620B18 /* car_4_2x.png in Resources */,
+				8104AE571D26542900620B18 /* car_race.png in Resources */,
+				8104AE621D26542900620B18 /* scores_3x.png in Resources */,
+				8104AE661D26542900620B18 /* twitter.png in Resources */,
+				8104AE4B1D26542900620B18 /* car_4.png in Resources */,
+				812F2FA71D238B16007FB06D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FB01D238B16007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FBB1D238B16007FB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812F2F951D238B16007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F2FD11D238B5F007FB06D /* GameScreenView.m in Sources */,
+				8150F5941D50C23F00240F29 /* GameScreenView123.m in Sources */,
+				812F2FA41D238B16007FB06D /* ViewController.m in Sources */,
+				812F2FA11D238B16007FB06D /* AppDelegate.m in Sources */,
+				812F2F9E1D238B16007FB06D /* main.m in Sources */,
+				812F2FD41D238C7E007FB06D /* MyCarView.m in Sources */,
+				81381AD71D48C7370082B6BD /* RaceGameOverViewController.m in Sources */,
+				81381AD41D48C5BB0082B6BD /* RaceGameScoreBoardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FAE1D238B16007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F2FB71D238B16007FB06D /* RoadFighterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F2FB91D238B16007FB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F2FC21D238B16007FB06D /* RoadFighterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812F2FB41D238B16007FB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812F2F981D238B16007FB06D /* RoadFighter */;
+			targetProxy = 812F2FB31D238B16007FB06D /* PBXContainerItemProxy */;
+		};
+		812F2FBF1D238B16007FB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812F2F981D238B16007FB06D /* RoadFighter */;
+			targetProxy = 812F2FBE1D238B16007FB06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		812F2FA51D238B16007FB06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F2FA61D238B16007FB06D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		812F2FAA1D238B16007FB06D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F2FAB1D238B16007FB06D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812F2FC41D238B16007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812F2FC51D238B16007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812F2FC71D238B16007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harshit Srivastava (7AC62QGC4R)";
+				INFOPLIST_FILE = RoadFighter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commonRapidID.RoadFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "022c4878-9277-498e-bef7-802f8a085663";
+			};
+			name = Debug;
+		};
+		812F2FC81D238B16007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harshit Srivastava (7AC62QGC4R)";
+				INFOPLIST_FILE = RoadFighter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commonRapidID.RoadFighter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "022c4878-9277-498e-bef7-802f8a085663";
+			};
+			name = Release;
+		};
+		812F2FCA1D238B16007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoadFighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foo.RoadFighterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadFighter.app/RoadFighter";
+			};
+			name = Debug;
+		};
+		812F2FCB1D238B16007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoadFighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foo.RoadFighterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadFighter.app/RoadFighter";
+			};
+			name = Release;
+		};
+		812F2FCD1D238B16007FB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoadFighterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foo.RoadFighterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoadFighter;
+			};
+			name = Debug;
+		};
+		812F2FCE1D238B16007FB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoadFighterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foo.RoadFighterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoadFighter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812F2F941D238B16007FB06D /* Build configuration list for PBXProject "RoadFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F2FC41D238B16007FB06D /* Debug */,
+				812F2FC51D238B16007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812F2FC61D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F2FC71D238B16007FB06D /* Debug */,
+				812F2FC81D238B16007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812F2FC91D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F2FCA1D238B16007FB06D /* Debug */,
+				812F2FCB1D238B16007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812F2FCC1D238B16007FB06D /* Build configuration list for PBXNativeTarget "RoadFighterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812F2FCD1D238B16007FB06D /* Debug */,
+				812F2FCE1D238B16007FB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812F2F911D238B16007FB06D /* Project object */;
+}
